@@ -5,13 +5,13 @@
 	"name": "NonLethal Falls",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"GauntRecluse"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/MildestToucan/NonLethalFalls",
+        "issues": "https://github.com/MildestToucan/NonLethalFalls/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/nonlethal-falls/icon.png",
 	"environment": "*",
 	"entrypoints": {

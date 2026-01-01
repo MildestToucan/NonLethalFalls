@@ -11,6 +11,9 @@ base {
 }
 
 repositories {
+    maven {
+        url "https://repo.sleeping.town/"
+    }
 }
 
 dependencies {
@@ -19,6 +22,8 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
 
+    implementation "folk.sisby:kaleido-config:${project.kaleido_config_version}"
+    include "folk.sisby:kaleido-config:${project.kaleido_config_version}"
 }
 
 processResources {
